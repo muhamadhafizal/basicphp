@@ -1,25 +1,35 @@
 <?php
 
-    //example outide function
-    $nilaitambah = 5;
+//1
+$global = 5;
+$global1 = 7;
+$global2 = 10;
+//2
+mytest($global, $global1, $global2);
 
-    function mytest(){
+//3
+function mytest($b, $a, $c) {
+	$nilaitambahinner = 6;
+	echo "<p> Variable nilaitambah INSIDE function is: $nilaitambahinner </p>";
 
-        echo "<p> Variable NilaiTambah inside function is: $nilaitambah </p>";
+	echo "<p> Variable nilaitambah 7 mytest function is: $a </p>";
 
-    }
+	echo "<p> Variable nilaitambah 5 mytest function is: $b </p>";
 
-    mytest();
+	echo "<p> Variable nilaitambah 10 mytest function is: $c </p>";
 
-    echo "<p> Variable nilaitambah outside function is: $nilaitambah </p>";
+}
 
-    function inside(){
+//outside
+/*echo "<p> Variable nilaitambah outside function is: $nilaitambah </p>";*/
 
-        $innervariable = 10;
-        echo "<p> Variable NilaiTambah inside function is : $innervariable </p>";
+/* function inside(){
 
-    }
+$innervariable = 10;
+echo "<p> Variable NilaiTambah inside function is : $innervariable </p>";
 
-    inside();
+}
+
+ */
 
 ?>

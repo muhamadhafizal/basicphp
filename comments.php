@@ -7,7 +7,7 @@
 //This is single comments
 
 /*this is multiple line
-        comments*/
+comments*/
 
 ?>
     </body>

@@ -4,19 +4,20 @@
 <body>
 
     <?php
-    //display text
-    echo "<h1> DISPLAY TEXT</h1>";
-    echo "<h2> Selamat Datang Ke ICT JOHOR </h2>";
-    echo "Kota Iskandar <br>";
-    
-    //display variables
-    echo "<h1> Display Variables </h1>";
-    $txt1 = "Selamat Datang Ke ICT JOHOR";
-    $txt2 = "Kota Iskandar";
+//display text
+echo "<h2> DISPLAY TEXT</h2>";
+echo "<h3> Selamat Datang Ke ICT JOHOR </h3>";
+echo "<p>Kota Iskandar</p> <br>";
 
-    echo "<h2>" . $txt1 . "</h2>";
-    echo "<p>" . $txt2 . "</p>";
+//display variables
+echo "<h2> Display Variables </h2>";
+$txt1 = "ICT JOHOR";
+$txt2 = "Iskandar";
+$txt3 = "Johor Bahru";
 
-    ?>
+echo "<h3> Selamat Datang Ke " . $txt1 . " Daerah: " . $txt3 . "</h3>";
+echo "<p> Kota " . $txt2 . "</p>";
+
+?>
 </body>
 </html>
