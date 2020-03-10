@@ -1,5 +1,9 @@
 <html>
 	<body>
-		<h1>WELCOME TO BASIC PHP</h1>
+		<h1>
+			<?php
+echo "WELCOME TO BASIC PHP";
+?>
+		</h1>
 	</body>
 </html>
